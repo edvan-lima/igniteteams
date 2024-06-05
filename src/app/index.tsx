@@ -1,10 +1,12 @@
 import { View, Text } from "react-native"
 import React from "react"
+import { Container } from "@/components/Container"
+import { Title } from "@/components/Title"
 
 export default function Home() {
   return (
-    <View className="flex-1 items-center justify-center">
-      <Text className="text-3xl text-red-500">home</Text>
-    </View>
+    <Container>
+      <Title name="Groups" />
+    </Container>
   )
 }
